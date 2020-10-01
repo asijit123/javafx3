@@ -16,6 +16,7 @@ public class Main extends Application {
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);
             primaryStage.show();
+            System.out.println("Tic Tac Toe Running");
         } catch(Exception e) {
             e.printStackTrace();
         }
